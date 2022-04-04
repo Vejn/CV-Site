@@ -1,0 +1,131 @@
+/* Tags */
+body {
+    background: rgb(21,98,107);
+    background: linear-gradient(0deg, rgba(21,98,107,1) 5%, rgba(83,125,108,1) 47%, rgba(46,68,69,1) 88%, rgba(59,48,66,1) 100%);
+    background-size: 100%;
+    color: azure;
+}
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2rem;
+    margin: 0 0 5%;
+    text-align: center;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+hr {
+    border-top: 5px dotted gray;
+    width: 10%;
+    margin: 0 auto;
+}
+/* Title */
+#title {
+    padding: 0 15% 5%;
+    text-align: center;
+}
+.navbar {
+    margin: 0;
+    padding: 0 15%;
+}
+.title-body {
+    margin:  0 0;
+}
+/* Profile Picture */
+.profile-pic {
+    width: 30%;
+    margin: 10%;
+}
+@media (max-width: 1000px){
+    .profile-pic{
+        margin: 20% 5% 0;
+    }
+}
+.profile-text {
+    margin: 6% 0;
+}
+/* About Me */
+#aboutMe {
+    padding: 5% 15%;
+    text-align: center;
+}
+.about-header {
+    font-size: 1.5rem;
+    line-height: 0.8;
+}
+.about-body {
+    padding: 5%;
+    background-color: grey;
+    text-align: left;
+}
+.btn-about {
+    margin: 2% 0;
+}
+/* Education */
+#education {
+    padding: 5% 15%;
+    font-size: 1.5rem;
+    line-height: 2;
+    text-align: center;
+}
+/* Work Exp */
+#workExp {
+    padding: 5% 15%;
+    text-align: center;
+}
+.exp-description {
+    padding-left: 3%;
+    color: lightgrey;
+    font-weight: 50;
+}
+/* Pro Summary */
+#proSummary {
+    padding: 5% 15%;
+}
+/* Projects */
+#projects {
+    padding: 5% 15%;
+}
+.carousel {
+    text-align: center;
+    border: 1px solid;
+    padding: 2%;
+}
+.project-pic {
+    margin: 2%;
+    height: 30rem;
+}
+/* Skills */
+#skills {
+    padding: 5% 15%;
+}
+.card-skills {
+    height: 8rem;
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.card-skills:hover {
+    background-color: grey;
+    color: black;
+    height: 10rem;
+}
+/* Contact Me */
+#contactMe {
+    padding: 5% 15%;
+}
+#contactMe p {
+    text-align: center;
+}
+/* Footer */
+#footer {
+    text-align: center;
+}
+#cr {
+    font-size: 0.6rem;
+}
